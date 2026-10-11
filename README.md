@@ -1,39 +1,35 @@
 # 🚚 Delivery Tracking System
 
-A Flutter-based delivery tracking application designed to help customers track their orders, delivery agents manage deliveries, and administrators monitor the overall delivery system.
+A Flutter-based mobile application designed to help users manage orders and track delivery progress through a simple and user-friendly interface.
 
 ## 📌 About the Project
 
-The Delivery Tracking System provides a simple and user-friendly platform for managing and tracking deliveries.
+The Delivery Tracking System is a mobile application developed using Flutter and Dart.
 
-The application is designed around three main user roles:
-
-- 👤 Customer
-- 🚴 Delivery Agent
-- 👨‍💼 Admin
-
-Each role has access to features relevant to their responsibilities.
+The project demonstrates mobile application development, user authentication, order management, delivery tracking, reusable widgets, and screen navigation.
 
 ## ✨ Key Features
 
-### 👤 Customer
-- User authentication
-- View orders
-- Track delivery status
+### 👤 User Authentication
+- Login
+- User registration
+- Splash screen
+
+### 📦 Order Management
+- Create orders
 - View order details
-- Monitor delivery progress
+- View order information
 
-### 🚴 Delivery Agent
-- View assigned deliveries
-- Update delivery status
-- Manage delivery information
-- Track assigned orders
+### 🚚 Delivery Tracking
+- Track delivery progress
+- View delivery status
+- Monitor order delivery information
 
-### 👨‍💼 Admin
-- Monitor users and orders
-- Manage delivery agents
-- View delivery information
-- Manage the overall delivery system
+### 🎨 Application UI
+- Reusable Flutter widgets
+- Custom application theme
+- Structured screen navigation
+- Sample data for demonstration
 
 ## 🛠️ Technologies Used
 
@@ -51,16 +47,14 @@ delivery-tracking-system/
 ├── android/
 ├── ios/
 ├── assets/
-│   ├── fonts/
 │   └── images/
 │
 ├── lib/
+│   ├── main.dart
 │   ├── models/
 │   ├── screens/
-│   │   ├── admin/
 │   │   ├── auth/
-│   │   ├── customer/
-│   │   └── delivery_agent/
+│   │   └── customer/
 │   ├── services/
 │   ├── theme/
 │   ├── utils/
@@ -68,4 +62,5 @@ delivery-tracking-system/
 │
 ├── test/
 ├── pubspec.yaml
+├── pubspec.lock
 └── README.md
